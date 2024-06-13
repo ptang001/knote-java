@@ -29,5 +29,8 @@ $kubectl apply -f kube
 Watch the Pods coming alive with:
 $kubectl get pods --watch
 
+Sonar Scan:
+$ mvn clean verify sonar:sonar -Dsonar.token=sqp_c55f49db5dacf530b9ebd883596c3ec5edb07434 -Dsonar.projectKey=knote-key
+
  
    
